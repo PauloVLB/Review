@@ -1,0 +1,15 @@
+{
+    "name": "Java 21 Development Container",
+    "image": "mcr.microsoft.com/devcontainers/java:21",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vscjava.vscode-java-pack"
+            ]
+        }
+    },
+    "forwardPorts": [
+		8080
+	],
+    "postCreateCommand": "java -version"
+}
